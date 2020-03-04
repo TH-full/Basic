@@ -3,7 +3,8 @@ package com.incom.report.javatest;
 public class TestException {
 
 	public static void main(String[] args) {
-		String testString = "Test";
+
+		String testString = "999";
 
 		try {
 			int testException = Integer.parseInt(testString);
@@ -17,6 +18,7 @@ public class TestException {
 		} finally {
 			System.out.println("예외에 관계 없이 이 메세지는 수행됩니다.");
 		}
+
 		System.out.println("프로그램의 마지막 수행 메세지");
 	}
 

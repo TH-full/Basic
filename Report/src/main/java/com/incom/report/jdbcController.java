@@ -29,25 +29,4 @@ public class jdbcController {
 
 		return "test";
 	}
-	
-	
-	public static void main(String[] args) {
-
-		/*
-		 * AnnotationConfigApplicationContext context = new
-		 * AnnotationConfigApplicationContext(jdbcConfig.class);
-		 * 
-		 * reportMapperImpl mapper = context.getBean("test_mapper",
-		 * reportMapperImpl.class);
-		 * 
-		 * // SELECT List<reportVO> list1 = mapper.select_data(); for(reportVO bean1:
-		 * list1) { System.out.println("=================");
-		 * System.out.println("@ NO       : " + bean1.getCust_id());
-		 * System.out.println("@ NAME     : " + bean1.getCust_name());
-		 * System.out.println("@ GENDER   : " + bean1.getCust_gender());
-		 * System.out.println("================="); list1.add(bean1); }
-		 * 
-		 * context.close();
-		 */
-	}
 }

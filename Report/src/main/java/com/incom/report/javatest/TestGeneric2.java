@@ -17,16 +17,13 @@ class Product<T, M>{
 		this.model = model;
 	}	
 }
-
-class Car {}
-
 class Tv{}
 
 public class TestGeneric2 {
 
 	public static void main(String[] args) {
 		Product<Tv, String> product1 = new Product<>();
-		product1.setKind(new Tv ());
+		//product1.setKind(new Tv ());
 		product1.setModel("4K TV");
 		String tvModel = product1.getModel();
 		System.out.println(tvModel);
