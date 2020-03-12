@@ -13,9 +13,9 @@ public class jdbcConfig {
 	public BasicDataSource source() {
 		BasicDataSource source = new BasicDataSource();
 		source.setDriverClassName("oracle.jdbc.OracleDriver");
-		source.setUrl("jdbc:oracle:thin:@127.0.0.1:1521:xe");
-		source.setUsername("c##ora_user");
-		source.setPassword("000000");
+		source.setUrl("jdbc:oracle:thin:@[ipaddress]:[port]:[sid]");
+		source.setUsername("[userid]");
+		source.setPassword("[userpw]");
 		
 		return source;
 	}
