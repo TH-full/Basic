@@ -2,11 +2,11 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ page session="false"%>
-<%@ page import="com.incom.reprot.config.jdbcConfig"%>
+<%@ page import="com.fullth.test.config.jdbcConfig"%>
 <%@ page
 	import="org.springframework.context.annotation.AnnotationConfigApplicationContext"%>
-<%@ page import="com.incom.report.mapper.reportMapperImpl"%>
-<%@ page import="com.incom.report.beans.reportVO"%>
+<%@ page import="com.fullth.test.mapper.reportMapperImpl"%>
+<%@ page import="com.fullth.test.beans.reportVO"%>
 <%@ page import="java.util.List"%>
 <html>
 <head>
